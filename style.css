@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2, h5 {
+    font-weight: bold;
+}
+
+/* Hero Section */
+header {
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .btn {
+    padding: 10px 30px;
+}
+
+/* Features Section */
+#features .icon {
+    font-size: 3rem;
+}
+
+#features .card {
+    transition: transform 0.3s ease-in-out;
+}
+
+#features .card:hover {
+    transform: translateY(-10px);
+}
+
+/* About Section */
+#about img {
+    border-radius: 10px;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+}
+
+#about .btn {
+    padding: 10px 20px;
+}
+
+/* Testimonials Section */
+#testimonials blockquote {
+    font-style: italic;
+    border-left: 5px solid #ddd;
+    padding-left: 15px;
+}
+
+/* Call to Action Section */
+#cta {
+    background: #007bff;
+    color: white;
+}
+
+#cta .btn {
+    padding: 10px 30px;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #aaa;
+}
